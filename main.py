@@ -43,7 +43,4 @@ def int_to_roman(num):
         if units_digit >= 5 and units_digit <= 8:
             roman_num += "V" + ("I" * (units_digit-5))
         return roman_num
-
-
-
-print(int_to_roman(500))
+    
